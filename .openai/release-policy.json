@@ -1,0 +1,18 @@
+{
+  "project_id": "appgprj_6ae49635b4048191adb50b2c948e45f4",
+  "mode": "draft_only",
+  "publish_requires_explicit_user_instruction": true,
+  "baseline": {
+    "version_number": 9,
+    "version_id": "appgprj_6ae49635b4048191adb50b2c948e45f4~appgver_572e00641ae08191ace1dc08088d7f08",
+    "commit_sha": "a91e9ac573b80ba38fd55fbd5bee85ac4b2ae925",
+    "deployment_id": "appgdep_6ae702b9b9ec8191b197c42c3250c916",
+    "archive_content_hash": "sha256:94a25daf3eb1ef16f00b07d4490f1e7f20dc558125cd0d00b35db9465fdd0608",
+    "runtime_environment_revision": 2
+  },
+  "user_data_baseline": {
+    "status": "awaiting_snapshot_on_users_browser",
+    "migration_allowed": false,
+    "preserve_legacy_browser_keys": true
+  }
+}

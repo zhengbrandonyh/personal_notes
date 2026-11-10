@@ -1,0 +1,8 @@
+{
+  "name": "昼夜簿 DayNight — 工作与生活事项管理台",
+  "description": "工作归工作、生活归生活；一句话记下来，拖一下定优先级，一天怎么排一眼看清，AI 帮你拆、帮你排、帮你收尾。",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#181A20"/>
+      <stop offset="100%" stop-color="#0E1015"/>
+    </linearGradient>
+    <linearGradient id="sun" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#C8FF3D"/>
+      <stop offset="100%" stop-color="#A3E635"/>
+    </linearGradient>
+    <linearGradient id="moon" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#C084FC"/>
+      <stop offset="100%" stop-color="#818CF8"/>
+    </linearGradient>
+  </defs>
+  <!-- Background squircle -->
+  <rect width="512" height="512" rx="128" fill="url(#bg)"/>
+  
+  <!-- Left Day half (Sun) -->
+  <g transform="translate(170, 256)">
+    <circle cx="0" cy="0" r="80" fill="url(#sun)"/>
+    <path d="M-100 0 L-130 0 M100 0 L130 0 M0 -100 L0 -130 M0 100 L0 130 M-70 -70 L-90 -90 M70 70 L90 90 M-70 70 L-90 90 M70 -70 L90 -90" 
+          stroke="url(#sun)" stroke-width="16" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Right Night half (Crescent Moon) -->
+  <g transform="translate(320, 256)">
+    <path d="M-10 -75 A 75 75 0 1 0 75 10 A 60 60 0 1 1 -10 -75 Z" fill="url(#moon)"/>
+  </g>
+  
+  <!-- Modern dividing accent line -->
+  <line x1="256" y1="120" x2="256" y2="392" stroke="rgba(255,255,255,0.15)" stroke-width="6" stroke-dasharray="12 12"/>
+</svg>

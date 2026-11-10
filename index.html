@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="zh-CN" class="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>江明川冲冲冲</title>
+    <meta name="description" content="工作与生活事项管理" />
+    <meta property="og:title" content="江明川冲冲冲" />
+    <meta property="og:description" content="工作与生活事项管理" />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <script>
+      (function() {
+        // 0. Default to dark mode (respect explicit 'light' if stored, otherwise dark)
+        try {
+          var savedTheme = localStorage.getItem('dn-theme');
+          if (savedTheme === 'light') {
+            document.documentElement.classList.remove('dark');
+          } else {
+            document.documentElement.classList.add('dark');
+          }
+        } catch (_) {
+          document.documentElement.classList.add('dark');
+        }
+      })();
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=Noto+Sans+SC:wght@300;400;500;600;700&family=Noto+Serif+SC:wght@400;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div id="root">
+      <div id="app-loading-fallback" style="min-height: 100vh; display: flex; flex-direction: column; align-items: center; justify-content: center; font-family: -apple-system, BlinkMacSystemFont, sans-serif; background: #16161a; color: #f2f3f5; padding: 20px; text-align: center;">
+        <div style="width: 48px; height: 48px; border-radius: 12px; background: #165dff; color: #ffffff; font-size: 20px; font-weight: bold; display: flex; align-items: center; justify-content: center; margin-bottom: 16px; box-shadow: 0 4px 16px rgba(22,93,255,0.25);">
+          川
+        </div>
+        <h2 style="margin: 0 0 8px 0; font-size: 18px; font-weight: 600; color: #f2f3f5;">加载中…</h2>
+      </div>
+    </div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
